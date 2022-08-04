@@ -59,6 +59,8 @@ while (!feof($file_handle))
 		if ($row_count == 0)
 		{
 			$headings = $row;		
+			
+			echo join("\t", $row) . "\n";
 		}
 		else
 		{
@@ -71,8 +73,6 @@ while (!feof($file_handle))
 					$obj->{$headings[$k]} = $v;
 				}
 			}
-		
-			
 			
 			if (isset($obj->doi))
 			{
@@ -84,7 +84,7 @@ while (!feof($file_handle))
 				}
 			}
 			
-			print_r($obj);	
+			//print_r($obj);	
 			
 			// rewrite
 			$output_row = array();
@@ -100,11 +100,11 @@ while (!feof($file_handle))
 				}
 			}
 			
-			print_r($output_row);
+			//print_r($output_row);
+			echo join("\t", $output_row);
 
 		}
 	}	
 	$row_count++;
 }
 ?>
-
