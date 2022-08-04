@@ -65,12 +65,13 @@ The test data has the following column headings.
 
 ## Data
 
-The data has been assembled based on a series of queries across various local databases, with some manual additions. The citations have been formatted using content negotiation via CrossRef’s formatting service.
+The data has been assembled based on a series of queries across various local databases, with some manual additions. The citations have been formatted using content negotiation via CrossRef’s formatting service. This is simply a call to `https://doi.org/` with the header `Accept: text/bibliography; style=apa`. Other formats are available. A better approach would be to get the bibliographic data in CSL-JSON (also available via CrossRef) and use CiteProc to format the data in any desired format (see [Citation.js](https://citation.js.org) for an implementation).
 
+Data is available in both [TSV](ala.tsv) and [CSV](ala.csv) formats.
 
 ### Queries
 
-These are notes on the queries used to generate the data, they won’t mean much as the databases are all local.
+These are notes on the queries used to generate the data, they won’t mean much as the databases are all local on my machine.
 
 #### Sample from AFD mapped to Ozymandias
 
