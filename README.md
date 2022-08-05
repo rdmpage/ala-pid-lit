@@ -29,7 +29,7 @@ The data for this preliminary dataset comes form several sources:
 
 - A subset of a mapping between short citations (“micro citations”, equivalent to a “pinpoint citation” or “pincite” in legal documents) and a page in BHL for the journal *Muelleria*.
 
-The data is in the form of a CSV spreadsheet. For each name there are three possible identifiers, not al of which are used. These identifiers come from the source databases. The [National Species List](https://biodiversity.org.au/nsl/services/) which houses APNI has distinct identifiers for a taxonomic name, the appearance of that name in a publication (an “instance”), and the name for the currently accepted taxon the name refers too. In the context of this project, an instance can be thought of as the identifier for the (name, DOI) tuple. The AFD data has identifiers for the name and the corresponding taxon. The taxon identifiers regularly change, the name identifier seems stable but not resolvable.
+The data is in the form of a CSV spreadsheet. For each name there are three possible identifiers, not all of which are used. These identifiers come from the source databases. The [National Species List](https://biodiversity.org.au/nsl/services/) which houses APNI has distinct identifiers for a taxonomic name, the appearance of that name in a publication (an “instance”), and the name for the currently accepted taxon the name refers too. In the context of this project, an instance can be thought of as the identifier for the (name, DOI) tuple. The AFD data has identifiers for the name and the corresponding taxon. The taxon identifiers regularly change, the name identifier seems stable but not resolvable.
 
 ### Notes on identifiers
 
