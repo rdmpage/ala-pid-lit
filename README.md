@@ -6,12 +6,12 @@ Exploratory project between the [Atlas of Living Australia (ALA](https://www.ala
 
 Much of the taxonomic literature is cited in ALA as “dumb strings”, rather than citations with persistent identifiers such as a DOIs. Hence ALA’s users have no obvious way to discover that taxonomic literature, which is often a rich source of information about the ecology, morphology, and behaviour of a species. The lack of links to the literature also means that taxonomists who contribute primary data that is aggregated by ALA receive no benefit, either in terms of increased readership of their work, or in formal citations of that work.
 
-Too help address this we want to do two things:
+To help address this we want to do two things:
 
 1. Add existing DOIs to any taxonomically relevant publication included in ALA.
 2. For any taxonomically relevant publication listed in ALA that is in BHL, add a link to the corresponding page in BHL.
 
-(1) adds work-level persistent identifiers (e.g., a DOI for an article). (2) adds page-level identifiers (e.g., URL for a page in BHL).
+(1) adds work-level persistent identifiers (e.g., a DOI for an article). (2) adds page-level identifiers (e.g., a URL for a page in BHL).
 
 DOIs are the standard persistent identifier for publications. Including DOIs makes the literature discoverable, as well as offering other benefits such as tools for standardised citation formatting (see [CrossRef’s Citation Formatting Service](https://www.crossref.org/labs/citation-formatting-service/)).
 
